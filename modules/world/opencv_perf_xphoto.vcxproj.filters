@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\xphoto\perf\perf_grayworld.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\xphoto\perf\perf_learning_based_color_balance.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\xphoto\perf\perf_main.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\xphoto\perf\perf_precomp.hpp">
+      <Filter>opencv_xphoto\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_xphoto">
+      <UniqueIdentifier>{76477DA5-3DA9-35A9-83F7-AB96F8FEA8D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_xphoto\Include">
+      <UniqueIdentifier>{73A73B13-1DF4-3764-B5E9-734A2818A0D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_xphoto\Src">
+      <UniqueIdentifier>{C88FA416-1EB0-3F25-8174-B2E9E573B092}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\optflow\perf\opencl\perf_optflow_dualTVL1.cpp">
+      <Filter>opencv_optflow\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\optflow\perf\perf_deepflow.cpp">
+      <Filter>opencv_optflow\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\optflow\perf\perf_main.cpp">
+      <Filter>opencv_optflow\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\optflow\perf\perf_rlof.cpp">
+      <Filter>opencv_optflow\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\optflow\perf\perf_tvl1optflow.cpp">
+      <Filter>opencv_optflow\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\optflow\perf\perf_precomp.hpp">
+      <Filter>opencv_optflow\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_optflow">
+      <UniqueIdentifier>{ECC3984C-B87D-3FF9-B610-A9CC53069F9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_optflow\Include">
+      <UniqueIdentifier>{A5A55987-C6AF-39C3-9B9C-4D986A3ECE73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_optflow\Src">
+      <UniqueIdentifier>{8ADA20E4-DC9A-38A4-BD76-60AB8938300D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_optflow\Src\opencl">
+      <UniqueIdentifier>{A05B1794-0323-3C90-93DE-0DBF84B3488D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckTypeSize.cmake
+C:/opencv/opencv/3rdparty/libjpeg-turbo/CMakeLists.txt
+C:/opencv/opencv/3rdparty/libjpeg-turbo/jconfig.h.in
+C:/opencv/opencv/3rdparty/libjpeg-turbo/jconfigint.h.in
+C:/opencv/opencv/3rdparty/libjpeg-turbo/jversion.h.in
+C:\Program Files\CMake\share\cmake-4.3\Templates\MSBuild\nasm.props.in

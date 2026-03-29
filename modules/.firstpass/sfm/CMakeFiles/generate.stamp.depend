@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/opencv/opencv_contrib/modules/sfm/CMakeLists.txt
+C:/opencv/opencv_contrib/modules/sfm/cmake/FindGflags.cmake
+C:/opencv/opencv_contrib/modules/sfm/cmake/FindGlog.cmake
+C:\Program Files\CMake\share\cmake-4.3\Templates\MSBuild\nasm.props.in

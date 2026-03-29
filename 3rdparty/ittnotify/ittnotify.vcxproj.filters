@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv\3rdparty\ittnotify\src\ittnotify\ittnotify_static.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\3rdparty\ittnotify\src\ittnotify\jitprofiling.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv\3rdparty\ittnotify\include\ittnotify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\3rdparty\ittnotify\include\jitprofiling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\3rdparty\ittnotify\include\libittnotify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\3rdparty\ittnotify\src\ittnotify\disable_warnings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\3rdparty\ittnotify\src\ittnotify\ittnotify_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\3rdparty\ittnotify\src\ittnotify\ittnotify_static.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\3rdparty\ittnotify\src\ittnotify\ittnotify_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{858D430C-6B53-3C1D-9E61-58BA26AB5923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{81132EEA-B32D-3E72-8260-55F81508BB8D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

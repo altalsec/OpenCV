@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\img_hash\src\average_hash.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\img_hash\src\block_mean_hash.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\img_hash\src\color_moment_hash.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\img_hash\src\img_hash_base.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\img_hash\src\marr_hildreth_hash.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\img_hash\src\phash.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\img_hash\src\radial_variance_hash.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\build\modules\img_hash\opencv_img_hash_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\img_hash\include\opencv2\img_hash.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\img_hash\include\opencv2\img_hash\average_hash.hpp">
+      <Filter>Include\opencv2\img_hash</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\img_hash\include\opencv2\img_hash\block_mean_hash.hpp">
+      <Filter>Include\opencv2\img_hash</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\img_hash\include\opencv2\img_hash\color_moment_hash.hpp">
+      <Filter>Include\opencv2\img_hash</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\img_hash\include\opencv2\img_hash\img_hash_base.hpp">
+      <Filter>Include\opencv2\img_hash</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\img_hash\include\opencv2\img_hash\marr_hildreth_hash.hpp">
+      <Filter>Include\opencv2\img_hash</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\img_hash\include\opencv2\img_hash\phash.hpp">
+      <Filter>Include\opencv2\img_hash</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\img_hash\include\opencv2\img_hash\radial_variance_hash.hpp">
+      <Filter>Include\opencv2\img_hash</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\img_hash\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\opencv\build\modules\img_hash\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{744BC596-910E-30DA-8D3E-86B0608CBEDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{61158CC7-4455-35DB-BEE4-238AFA4A61EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\img_hash">
+      <UniqueIdentifier>{80166615-9CDB-3CC2-81A4-4AFAC31F616C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{81132EEA-B32D-3E72-8260-55F81508BB8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{93DAA5A0-1628-361B-8C59-68952B15E61F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

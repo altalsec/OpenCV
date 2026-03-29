@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\cudabgsegm\perf\perf_bgsegm.cpp">
+      <Filter>opencv_cudabgsegm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\cudabgsegm\perf\perf_main.cpp">
+      <Filter>opencv_cudabgsegm\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\cudabgsegm\perf\perf_precomp.hpp">
+      <Filter>opencv_cudabgsegm\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_cudabgsegm">
+      <UniqueIdentifier>{5170B017-6E19-3199-87B6-1C7299E45426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudabgsegm\Include">
+      <UniqueIdentifier>{5329F60B-BCB7-3033-8BA6-674A60F658E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudabgsegm\Src">
+      <UniqueIdentifier>{BA46718B-1FEF-3D29-B678-70C66EF85B08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

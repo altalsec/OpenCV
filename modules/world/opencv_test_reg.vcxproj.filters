@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\reg\test\test_main.cpp">
+      <Filter>opencv_reg\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\reg\test\test_reg.cpp">
+      <Filter>opencv_reg\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\reg\test\test_precomp.hpp">
+      <Filter>opencv_reg\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_reg">
+      <UniqueIdentifier>{B540B8C4-7668-3F0F-BBE5-6F9C684CD98F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_reg\Include">
+      <UniqueIdentifier>{4E0F20BA-45AA-3ED8-B2A1-64815A1A4EDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_reg\Src">
+      <UniqueIdentifier>{14B9E1FF-04AA-30E2-902A-2E5543E9E7DF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

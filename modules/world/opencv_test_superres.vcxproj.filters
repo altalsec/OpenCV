@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\superres\test\test_main.cpp">
+      <Filter>opencv_superres\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\superres\test\test_superres.cpp">
+      <Filter>opencv_superres\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\superres\test\test_precomp.hpp">
+      <Filter>opencv_superres\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_superres">
+      <UniqueIdentifier>{B8F58A62-AA33-31F9-840B-0A0CDB43BC4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_superres\Include">
+      <UniqueIdentifier>{E29F4CCA-39F7-3477-8EB0-B601594B7645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_superres\Src">
+      <UniqueIdentifier>{8D4E046C-4EAC-35BA-ADBA-67AD5AC7A5D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

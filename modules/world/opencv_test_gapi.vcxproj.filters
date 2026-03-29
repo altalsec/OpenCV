@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\common\gapi_compoundkernel_tests.cpp">
+      <Filter>opencv_gapi\Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\common\gapi_core_tests.cpp">
+      <Filter>opencv_gapi\Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\common\gapi_imgproc_tests.cpp">
+      <Filter>opencv_gapi\Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\common\gapi_operators_tests.cpp">
+      <Filter>opencv_gapi\Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\common\gapi_render_tests.cpp">
+      <Filter>opencv_gapi\Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\common\gapi_stereo_tests.cpp">
+      <Filter>opencv_gapi\Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\common\gapi_video_tests.cpp">
+      <Filter>opencv_gapi\Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\cpu\gapi_core_tests_cpu.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\cpu\gapi_core_tests_fluid.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\cpu\gapi_imgproc_tests_cpu.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\cpu\gapi_imgproc_tests_fluid.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\cpu\gapi_ocv_stateful_kernel_tests.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\cpu\gapi_operators_tests_cpu.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\cpu\gapi_operators_tests_fluid.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\cpu\gapi_ot_tests_cpu.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\cpu\gapi_stereo_tests_cpu.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\cpu\gapi_video_tests_cpu.cpp">
+      <Filter>opencv_gapi\Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\executor\gtbbexecutor_internal_tests.cpp">
+      <Filter>opencv_gapi\Src\executor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_array_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_async_test.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_basic_hetero_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_compile_args_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_desc_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_fluid_parallel_rois_test.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_fluid_resize_test.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_fluid_roi_test.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_fluid_test.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_fluid_test_kernels.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_frame_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_gcompiled_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_gcomputation_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_gpu_test.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_graph_meta_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_kernel_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_mat_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_opaque_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_plaidml_pipelines.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_planar_test.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_sample_pipelines.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_scalar_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_smoke_test.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_transform_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_typed_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gapi_util_tests.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gpu\gapi_core_tests_gpu.cpp">
+      <Filter>opencv_gapi\Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gpu\gapi_imgproc_tests_gpu.cpp">
+      <Filter>opencv_gapi\Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\gpu\gapi_operators_tests_gpu.cpp">
+      <Filter>opencv_gapi\Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\infer\gapi_infer_ie_test.cpp">
+      <Filter>opencv_gapi\Src\infer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\infer\gapi_infer_onnx_test.cpp">
+      <Filter>opencv_gapi\Src\infer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\infer\gapi_infer_ov_tests.cpp">
+      <Filter>opencv_gapi\Src\infer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\infer\gapi_infer_tests.cpp">
+      <Filter>opencv_gapi\Src\infer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\internal\gapi_int_backend_tests.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\internal\gapi_int_dynamic_graph.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\internal\gapi_int_executor_tests.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\internal\gapi_int_garg_test.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\internal\gapi_int_gmetaarg_test.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\internal\gapi_int_gmodel_builder_test.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\internal\gapi_int_island_fusion_tests.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\internal\gapi_int_island_tests.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\internal\gapi_int_pattern_matching_test.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\internal\gapi_int_perform_substitution_test.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\internal\gapi_int_proto_tests.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\internal\gapi_int_recompilation_test.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\internal\gapi_int_vectorref_test.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\internal\gapi_transactions_test.cpp">
+      <Filter>opencv_gapi\Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\oak\gapi_tests_oak.cpp">
+      <Filter>opencv_gapi\Src\oak</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\own\conc_queue_tests.cpp">
+      <Filter>opencv_gapi\Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\own\gapi_types_tests.cpp">
+      <Filter>opencv_gapi\Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\own\last_written_value_tests.cpp">
+      <Filter>opencv_gapi\Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\own\mat_tests.cpp">
+      <Filter>opencv_gapi\Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\own\scalar_tests.cpp">
+      <Filter>opencv_gapi\Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\own\thread_pool_tests.cpp">
+      <Filter>opencv_gapi\Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\render\ftp_render_test.cpp">
+      <Filter>opencv_gapi\Src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\render\gapi_render_tests_ocv.cpp">
+      <Filter>opencv_gapi\Src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\rmat\rmat_integration_tests.cpp">
+      <Filter>opencv_gapi\Src\rmat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\rmat\rmat_tests.cpp">
+      <Filter>opencv_gapi\Src\rmat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\rmat\rmat_view_tests.cpp">
+      <Filter>opencv_gapi\Src\rmat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\s11n\gapi_s11n_tests.cpp">
+      <Filter>opencv_gapi\Src\s11n</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\s11n\gapi_sample_pipelines_s11n.cpp">
+      <Filter>opencv_gapi\Src\s11n</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\streaming\gapi_gstreamer_pipeline_facade_int_tests.cpp">
+      <Filter>opencv_gapi\Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\streaming\gapi_gstreamersource_tests.cpp">
+      <Filter>opencv_gapi\Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_queue_source_tests.cpp">
+      <Filter>opencv_gapi\Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_sync_tests.cpp">
+      <Filter>opencv_gapi\Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_tests.cpp">
+      <Filter>opencv_gapi\Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_utils_test.cpp">
+      <Filter>opencv_gapi\Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_vpl_core_test.cpp">
+      <Filter>opencv_gapi\Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_vpl_data_provider.cpp">
+      <Filter>opencv_gapi\Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_vpl_device_selector.cpp">
+      <Filter>opencv_gapi\Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_vpp_preproc_test.cpp">
+      <Filter>opencv_gapi\Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\test_main.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\util\any_tests.cpp">
+      <Filter>opencv_gapi\Src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\util\optional_tests.cpp">
+      <Filter>opencv_gapi\Src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\gapi\test\util\variant_tests.cpp">
+      <Filter>opencv_gapi\Src\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_core_tests.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_core_tests_common.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_core_tests_inl.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_imgproc_tests.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_imgproc_tests_common.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_imgproc_tests_inl.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_operators_tests.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_operators_tests_inl.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_parsers_tests_common.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_render_tests.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_stereo_tests.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_stereo_tests_inl.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_streaming_tests_common.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_tests_common.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_tests_helpers.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_video_tests.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_video_tests_common.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\common\gapi_video_tests_inl.hpp">
+      <Filter>opencv_gapi\Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\cpu\gapi_ocv_stateful_kernel_test_utils.hpp">
+      <Filter>opencv_gapi\Include\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\gapi_fluid_test_kernels.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\gapi_mock_kernels.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\opencl_kernels_test_gapi.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\rmat\rmat_test_common.hpp">
+      <Filter>opencv_gapi\Include\rmat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\gapi\test\test_precomp.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_gapi">
+      <UniqueIdentifier>{6BD4F416-89AA-3583-90DF-BA1E18E61087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Include">
+      <UniqueIdentifier>{F4E8F765-B77C-31AF-9875-BCB3155AF639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Include\common">
+      <UniqueIdentifier>{B77D6465-8AD5-30AC-A49D-F894F6381E43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Include\cpu">
+      <UniqueIdentifier>{1E6D2FFC-9D29-33B5-BE0C-20BE25986472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Include\rmat">
+      <UniqueIdentifier>{30EF9F75-806C-3799-B240-A7638A80AE29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src">
+      <UniqueIdentifier>{D0CDBB3F-8AE5-3195-A768-48CEBDAFB6ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\common">
+      <UniqueIdentifier>{A877107E-FCBD-3126-85DE-41A58713EA96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\cpu">
+      <UniqueIdentifier>{261C6846-5F17-349B-A382-57750283E5F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\executor">
+      <UniqueIdentifier>{B38DF501-ECDD-3C78-9720-53BD38AA5B5B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\gpu">
+      <UniqueIdentifier>{EAE5C7A0-A9E7-3E21-BAEF-DC61B860BA87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\infer">
+      <UniqueIdentifier>{7383ADD7-1451-34E3-8782-E660A7CC25A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\internal">
+      <UniqueIdentifier>{1B306D42-F733-3346-8859-F0E390800B51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\oak">
+      <UniqueIdentifier>{540E4EA4-74BE-326E-A653-A8160ADBBDA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\own">
+      <UniqueIdentifier>{6DA69B3A-B9F9-32AE-8893-431F626822E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\render">
+      <UniqueIdentifier>{54490AC3-768C-3457-961D-A7955922B166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\rmat">
+      <UniqueIdentifier>{B4D45773-B239-3DDF-8ADF-2B9F2409D68F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\s11n">
+      <UniqueIdentifier>{1665438D-31E8-3F36-AF27-703F0CA6E2A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\streaming">
+      <UniqueIdentifier>{3FB67803-F7C6-30C2-86FE-949A2BF97F14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src\util">
+      <UniqueIdentifier>{19940BB9-F2D3-30B9-AF79-19C53315C0E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

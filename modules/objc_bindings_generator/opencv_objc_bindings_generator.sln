@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakeTargets", "CMakeTargets", "{35912E2A-BE73-3BA9-A815-CDC1CB0B2E2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{902392B2-DB4F-34AC-9E17-B03E0262AA3D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{084248B9-3516-3D2F-B7B9-BA57CE9A7F07}"
+	ProjectSection(ProjectDependencies) = postProject
+		{902392B2-DB4F-34AC-9E17-B03E0262AA3D} = {902392B2-DB4F-34AC-9E17-B03E0262AA3D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PACKAGE", "PACKAGE.vcxproj", "{FC304D7C-5804-37E3-A418-D1A767B80284}"
+	ProjectSection(ProjectDependencies) = postProject
+		{902392B2-DB4F-34AC-9E17-B03E0262AA3D} = {902392B2-DB4F-34AC-9E17-B03E0262AA3D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RUN_TESTS", "RUN_TESTS.vcxproj", "{E6842293-2AA7-3A13-9087-245641146F46}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gen_opencv_objc_source", "gen_opencv_objc_source.vcxproj", "{49F2046F-7CBD-39AF-9B28-339D9F45A3D3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4E5C0F6D-B072-337E-B368-0A4AC3A23D18} = {4E5C0F6D-B072-337E-B368-0A4AC3A23D18}
+		{6128286F-716E-3AB3-A074-112E2DFA1BE7} = {6128286F-716E-3AB3-A074-112E2DFA1BE7}
+		{ED1DD0F3-B983-3E4E-A30E-08B3A731A426} = {ED1DD0F3-B983-3E4E-A30E-08B3A731A426}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gen_opencv_objc_source_ios", "gen_opencv_objc_source_ios.vcxproj", "{4E5C0F6D-B072-337E-B368-0A4AC3A23D18}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gen_opencv_objc_source_osx", "gen_opencv_objc_source_osx.vcxproj", "{6128286F-716E-3AB3-A074-112E2DFA1BE7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gen_opencv_objc_source_visionos", "gen_opencv_objc_source_visionos.vcxproj", "{ED1DD0F3-B983-3E4E-A30E-08B3A731A426}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{902392B2-DB4F-34AC-9E17-B03E0262AA3D}.Debug|x64.ActiveCfg = Debug|x64
+		{902392B2-DB4F-34AC-9E17-B03E0262AA3D}.Debug|x64.Build.0 = Debug|x64
+		{902392B2-DB4F-34AC-9E17-B03E0262AA3D}.Release|x64.ActiveCfg = Release|x64
+		{902392B2-DB4F-34AC-9E17-B03E0262AA3D}.Release|x64.Build.0 = Release|x64
+		{084248B9-3516-3D2F-B7B9-BA57CE9A7F07}.Debug|x64.ActiveCfg = Debug|x64
+		{084248B9-3516-3D2F-B7B9-BA57CE9A7F07}.Release|x64.ActiveCfg = Release|x64
+		{FC304D7C-5804-37E3-A418-D1A767B80284}.Debug|x64.ActiveCfg = Debug|x64
+		{FC304D7C-5804-37E3-A418-D1A767B80284}.Release|x64.ActiveCfg = Release|x64
+		{E6842293-2AA7-3A13-9087-245641146F46}.Debug|x64.ActiveCfg = Debug|x64
+		{E6842293-2AA7-3A13-9087-245641146F46}.Release|x64.ActiveCfg = Release|x64
+		{49F2046F-7CBD-39AF-9B28-339D9F45A3D3}.Debug|x64.ActiveCfg = Debug|x64
+		{49F2046F-7CBD-39AF-9B28-339D9F45A3D3}.Release|x64.ActiveCfg = Release|x64
+		{4E5C0F6D-B072-337E-B368-0A4AC3A23D18}.Debug|x64.ActiveCfg = Debug|x64
+		{4E5C0F6D-B072-337E-B368-0A4AC3A23D18}.Debug|x64.Build.0 = Debug|x64
+		{4E5C0F6D-B072-337E-B368-0A4AC3A23D18}.Release|x64.ActiveCfg = Release|x64
+		{4E5C0F6D-B072-337E-B368-0A4AC3A23D18}.Release|x64.Build.0 = Release|x64
+		{6128286F-716E-3AB3-A074-112E2DFA1BE7}.Debug|x64.ActiveCfg = Debug|x64
+		{6128286F-716E-3AB3-A074-112E2DFA1BE7}.Debug|x64.Build.0 = Debug|x64
+		{6128286F-716E-3AB3-A074-112E2DFA1BE7}.Release|x64.ActiveCfg = Release|x64
+		{6128286F-716E-3AB3-A074-112E2DFA1BE7}.Release|x64.Build.0 = Release|x64
+		{ED1DD0F3-B983-3E4E-A30E-08B3A731A426}.Debug|x64.ActiveCfg = Debug|x64
+		{ED1DD0F3-B983-3E4E-A30E-08B3A731A426}.Debug|x64.Build.0 = Debug|x64
+		{ED1DD0F3-B983-3E4E-A30E-08B3A731A426}.Release|x64.ActiveCfg = Release|x64
+		{ED1DD0F3-B983-3E4E-A30E-08B3A731A426}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{902392B2-DB4F-34AC-9E17-B03E0262AA3D} = {35912E2A-BE73-3BA9-A815-CDC1CB0B2E2C}
+		{084248B9-3516-3D2F-B7B9-BA57CE9A7F07} = {35912E2A-BE73-3BA9-A815-CDC1CB0B2E2C}
+		{FC304D7C-5804-37E3-A418-D1A767B80284} = {35912E2A-BE73-3BA9-A815-CDC1CB0B2E2C}
+		{E6842293-2AA7-3A13-9087-245641146F46} = {35912E2A-BE73-3BA9-A815-CDC1CB0B2E2C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {319C47C4-D13D-3121-8804-F07B7228675C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

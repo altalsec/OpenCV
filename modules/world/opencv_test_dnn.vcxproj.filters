@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\npy_blob.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_backends.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_caffe_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_common.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_darknet_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_googlenet.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_graph_simplifier.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_ie_models.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_int8_layers.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_layers.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_main.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_misc.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_model.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_nms.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_onnx_conformance.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_onnx_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_tf_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_tflite_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\dnn\test\test_torch_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\npy_blob.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\test_common.hpp">
+      <Filter>test_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\test_common.impl.hpp">
+      <Filter>test_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\test_onnx_conformance_layer_filter__cuda_denylist.inl.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\test_onnx_conformance_layer_filter__cuda_fp16_denylist.inl.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\test_onnx_conformance_layer_filter__halide_denylist.inl.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\test_onnx_conformance_layer_filter__openvino.inl.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\test_onnx_conformance_layer_filter__vulkan_denylist.inl.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\test_onnx_conformance_layer_filter_opencv_all_denylist.inl.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\test_onnx_conformance_layer_filter_opencv_cpu_denylist.inl.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\test_onnx_conformance_layer_filter_opencv_denylist.inl.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\test_onnx_conformance_layer_filter_opencv_ocl_fp16_denylist.inl.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\test_onnx_conformance_layer_filter_opencv_ocl_fp32_denylist.inl.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\test_onnx_conformance_layer_parser_denylist.inl.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\dnn\test\test_precomp.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_dnn">
+      <UniqueIdentifier>{EC110FEA-F305-3145-9A21-12D34A044D0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Include">
+      <UniqueIdentifier>{0DDEE8A7-87B5-35FC-89AA-07F8613D7B29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src">
+      <UniqueIdentifier>{BE111EBA-E626-3B8C-B86B-76D61FD3CD8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test_common">
+      <UniqueIdentifier>{CEBD2AD7-B422-3748-84B2-1B86C65AA5F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\cudaarithm\test\test_arithm.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\cudaarithm\test\test_buffer_pool.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\cudaarithm\test\test_core.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\cudaarithm\test\test_element_operations.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\cudaarithm\test\test_event.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\cudaarithm\test\test_gpumat.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\cudaarithm\test\test_main.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\cudaarithm\test\test_opengl.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\cudaarithm\test\test_reductions.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\cudaarithm\test\test_stream.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\cudaarithm\test\test_precomp.hpp">
+      <Filter>opencv_cudaarithm\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_cudaarithm">
+      <UniqueIdentifier>{9AFD2933-173A-30CD-BEFB-3E046E520B72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudaarithm\Include">
+      <UniqueIdentifier>{0481513A-80EB-39A8-98F4-42DDC60D9162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudaarithm\Src">
+      <UniqueIdentifier>{ECB49B55-20AA-3EB7-98CB-57E137D89096}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

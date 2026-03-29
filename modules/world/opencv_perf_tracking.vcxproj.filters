@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\tracking\perf\perf_main.cpp">
+      <Filter>opencv_tracking\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\tracking\perf\perf_trackers.cpp">
+      <Filter>opencv_tracking\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\tracking\perf\perf_precomp.hpp">
+      <Filter>opencv_tracking\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_tracking">
+      <UniqueIdentifier>{8441AA13-F2DF-388F-9E2C-0C2CBE7B01C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_tracking\Include">
+      <UniqueIdentifier>{2C91B601-870A-30C5-A5BB-F0D783C739C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_tracking\Src">
+      <UniqueIdentifier>{D5FA40BA-E342-3ECA-B719-066067A266B1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

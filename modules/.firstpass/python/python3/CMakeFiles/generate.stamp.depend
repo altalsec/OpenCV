@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/opencv/opencv/modules/python/common.cmake
+C:/opencv/opencv/modules/python/python3/CMakeLists.txt
+C:\Program Files\CMake\share\cmake-4.3\Templates\MSBuild\nasm.props.in

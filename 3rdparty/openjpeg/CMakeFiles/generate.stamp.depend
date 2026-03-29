@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/TestBigEndian.cmake
+C:/opencv/opencv/3rdparty/openjpeg/CMakeLists.txt
+C:/opencv/opencv/3rdparty/openjpeg/openjp2/opj_config.h.cmake.in
+C:/opencv/opencv/3rdparty/openjpeg/openjp2/opj_config_private.h.cmake.in
+C:\Program Files\CMake\share\cmake-4.3\Templates\MSBuild\nasm.props.in

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_beblid.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_daisy.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_latch.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_main.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_msd.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_surf.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_surf.cuda.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_surf.ocl.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_teblid.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_vgg.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_precomp.hpp">
+      <Filter>opencv_xfeatures2d\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_xfeatures2d">
+      <UniqueIdentifier>{F0E2931C-4AD4-368F-8A0E-699BF2992676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_xfeatures2d\Include">
+      <UniqueIdentifier>{DA574AD6-F3E2-3479-B0ED-A5A3B289F6CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_xfeatures2d\Src">
+      <UniqueIdentifier>{33DF70C1-BCCE-3625-8EDF-2BE533AAB62C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

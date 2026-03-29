@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BEA7768A-C9B0-379C-9B78-3F1500E728A2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_tests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="C:\opencv\build\opencv_tests.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opencv\opencv\hal\ipp\include;C:\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;C:\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;C:\opencv\opencv\3rdparty\dlpack\include;C:\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opencv\opencv\hal\ipp\include;C:\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;C:\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;C:\opencv\opencv\3rdparty\dlpack\include;C:\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_bgsegm.vcxproj">
+      <Project>{F51EE654-0F9B-35BD-BB09-B2FC073B17E0}</Project>
+      <Name>opencv_test_bgsegm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_bioinspired.vcxproj">
+      <Project>{D8CDCEBD-EDB8-3977-ABB0-4DA5B56294BD}</Project>
+      <Name>opencv_test_bioinspired</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_calib3d.vcxproj">
+      <Project>{5A61ABFB-0414-33D9-8647-269E046F1C81}</Project>
+      <Name>opencv_test_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_core.vcxproj">
+      <Project>{93D00BC7-4E55-3BD5-9ED0-BFFBAA18ABB3}</Project>
+      <Name>opencv_test_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_cudaarithm.vcxproj">
+      <Project>{A54D522D-1BA2-334C-BD57-6DE2C50A3C23}</Project>
+      <Name>opencv_test_cudaarithm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_cudabgsegm.vcxproj">
+      <Project>{C029EDD3-B355-3DE9-B07F-9E0AAA8484F2}</Project>
+      <Name>opencv_test_cudabgsegm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_cudafeatures2d.vcxproj">
+      <Project>{DBD609BE-BD2C-3B71-9847-5AB07F8ED12C}</Project>
+      <Name>opencv_test_cudafeatures2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_cudafilters.vcxproj">
+      <Project>{57419311-BC05-37D2-A742-F52389FBE3CD}</Project>
+      <Name>opencv_test_cudafilters</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_cudaimgproc.vcxproj">
+      <Project>{4705AE3C-34D7-3832-9C25-68DDFE481D1D}</Project>
+      <Name>opencv_test_cudaimgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_cudalegacy.vcxproj">
+      <Project>{18C276EF-165E-3AFC-AD31-C6D0AAA23EAA}</Project>
+      <Name>opencv_test_cudalegacy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_cudaobjdetect.vcxproj">
+      <Project>{F4B8EE6A-E2C6-3396-8A92-1038B06AB368}</Project>
+      <Name>opencv_test_cudaobjdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_cudaoptflow.vcxproj">
+      <Project>{A471BF0B-5E35-3FF4-8FD1-F9B10D6EEFC5}</Project>
+      <Name>opencv_test_cudaoptflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_cudastereo.vcxproj">
+      <Project>{FC0D0049-1FAA-3ADA-9083-C0A5891B3DB2}</Project>
+      <Name>opencv_test_cudastereo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_cudawarping.vcxproj">
+      <Project>{C0F23D1F-7FC9-30A4-A692-A1ECE5190A05}</Project>
+      <Name>opencv_test_cudawarping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_dnn.vcxproj">
+      <Project>{F79DBE1C-DDCF-3286-9D46-584567BD2DCE}</Project>
+      <Name>opencv_test_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_dnn_superres.vcxproj">
+      <Project>{AF4D2E56-3484-32C4-AE49-7CC2C91EB0F6}</Project>
+      <Name>opencv_test_dnn_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_face.vcxproj">
+      <Project>{4BA95550-2139-3030-BA3F-8303224ED8C1}</Project>
+      <Name>opencv_test_face</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_features2d.vcxproj">
+      <Project>{89F15C00-8165-3624-8CB2-C3B5A9C410DE}</Project>
+      <Name>opencv_test_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_flann.vcxproj">
+      <Project>{4F1D7FAD-A9BB-3363-A50C-CDCF66E3CA3E}</Project>
+      <Name>opencv_test_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_fuzzy.vcxproj">
+      <Project>{0891F631-B343-378D-BA6B-A285812B500F}</Project>
+      <Name>opencv_test_fuzzy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_gapi.vcxproj">
+      <Project>{C1348E9C-E1AE-3B55-96EA-6A66051B72F9}</Project>
+      <Name>opencv_test_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_highgui.vcxproj">
+      <Project>{4756BBD7-2CB2-3E2E-8DFF-E95ECB3054E7}</Project>
+      <Name>opencv_test_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\img_hash\opencv_test_img_hash.vcxproj">
+      <Project>{78376B15-9C4F-347D-81D5-0913E989295F}</Project>
+      <Name>opencv_test_img_hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_imgcodecs.vcxproj">
+      <Project>{F159B6C5-F437-3279-8F93-6235750000D1}</Project>
+      <Name>opencv_test_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_imgproc.vcxproj">
+      <Project>{B29140FF-2712-3C2A-8EB1-E0563A655908}</Project>
+      <Name>opencv_test_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_intensity_transform.vcxproj">
+      <Project>{2B9FC72D-80B9-3F0B-94B3-445DB9309A81}</Project>
+      <Name>opencv_test_intensity_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_line_descriptor.vcxproj">
+      <Project>{D8197C81-B6FD-39AF-A775-E7BA5155D7A9}</Project>
+      <Name>opencv_test_line_descriptor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_mcc.vcxproj">
+      <Project>{A9A79F7A-05A9-3D61-8605-E61729281510}</Project>
+      <Name>opencv_test_mcc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_ml.vcxproj">
+      <Project>{7E3B234B-438B-3FB7-9C58-F07A4A1CCD3C}</Project>
+      <Name>opencv_test_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_objdetect.vcxproj">
+      <Project>{A03ADB56-DCFB-3CC1-9693-633EFC2CD4DA}</Project>
+      <Name>opencv_test_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_optflow.vcxproj">
+      <Project>{D14325F1-E901-3956-9F9A-37089F42DBEA}</Project>
+      <Name>opencv_test_optflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_phase_unwrapping.vcxproj">
+      <Project>{544011B5-4466-352B-A9B1-180E069B1014}</Project>
+      <Name>opencv_test_phase_unwrapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_photo.vcxproj">
+      <Project>{18094D41-BFBC-3EE5-BF9C-F49CB8233F47}</Project>
+      <Name>opencv_test_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_quality.vcxproj">
+      <Project>{53AEB082-37A2-30A9-80C3-652AD7A578F1}</Project>
+      <Name>opencv_test_quality</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_rapid.vcxproj">
+      <Project>{0C73E470-AD11-3951-94A9-3BA10DF43E45}</Project>
+      <Name>opencv_test_rapid</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_reg.vcxproj">
+      <Project>{4ACF0C94-D252-386B-A6D1-67AE76E8BE9F}</Project>
+      <Name>opencv_test_reg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_rgbd.vcxproj">
+      <Project>{6546EDE0-AC9F-3DCC-90B6-B0FD8D5E990D}</Project>
+      <Name>opencv_test_rgbd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_saliency.vcxproj">
+      <Project>{B8B8992E-CBE7-33CA-9E12-68259F933B39}</Project>
+      <Name>opencv_test_saliency</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_shape.vcxproj">
+      <Project>{D5F42CC6-1343-3DCE-B560-7EB4B0A41B0D}</Project>
+      <Name>opencv_test_shape</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_signal.vcxproj">
+      <Project>{7C7F489A-1D28-3564-B4C0-5761E2CAC0F8}</Project>
+      <Name>opencv_test_signal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_stereo.vcxproj">
+      <Project>{5B736336-FF69-3C42-8B05-DCF565EBF1F0}</Project>
+      <Name>opencv_test_stereo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_stitching.vcxproj">
+      <Project>{5B9BAB71-909B-3A55-A978-5F637C175C05}</Project>
+      <Name>opencv_test_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_structured_light.vcxproj">
+      <Project>{9F077235-DF34-3EE7-B5C5-3C494F71B3D1}</Project>
+      <Name>opencv_test_structured_light</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_superres.vcxproj">
+      <Project>{814927A9-5CD9-38A9-B568-4D0BC2B56F10}</Project>
+      <Name>opencv_test_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_text.vcxproj">
+      <Project>{59BE9A13-1E64-3028-AAB0-46FFAAF031BF}</Project>
+      <Name>opencv_test_text</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_tracking.vcxproj">
+      <Project>{B8433BA8-2507-3CFE-9443-7B4B0C7FB81E}</Project>
+      <Name>opencv_test_tracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_video.vcxproj">
+      <Project>{F8A302AC-FFB8-3C87-90CD-DB070F5331AE}</Project>
+      <Name>opencv_test_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_videoio.vcxproj">
+      <Project>{A2DEFB96-46A6-30E1-982E-F20374F496EB}</Project>
+      <Name>opencv_test_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_videostab.vcxproj">
+      <Project>{03D8046F-B14A-3085-B5A9-DE4FC39BF6AE}</Project>
+      <Name>opencv_test_videostab</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_wechat_qrcode.vcxproj">
+      <Project>{91A2DE44-8B19-33F5-B403-346E1B043380}</Project>
+      <Name>opencv_test_wechat_qrcode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_xfeatures2d.vcxproj">
+      <Project>{9A0DD4E5-B5D6-3FF6-A9C7-D3EF70FDCB8C}</Project>
+      <Name>opencv_test_xfeatures2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_ximgproc.vcxproj">
+      <Project>{2FA71F0C-5FAB-32DC-BA24-572ABF358ECF}</Project>
+      <Name>opencv_test_ximgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\modules\world\opencv_test_xphoto.vcxproj">
+      <Project>{4CCCAD73-D1E6-306F-969B-FC78FC3352F5}</Project>
+      <Name>opencv_test_xphoto</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-4.3\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

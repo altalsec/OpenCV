@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/opencv/opencv/cmake/OpenCVBindingsPreprocessorDefinitions.cmake
+C:/opencv/opencv/modules/objc/common.cmake
+C:/opencv/opencv/modules/objc/generator/CMakeLists.txt
+C:\Program Files\CMake\share\cmake-4.3\Templates\MSBuild\nasm.props.in

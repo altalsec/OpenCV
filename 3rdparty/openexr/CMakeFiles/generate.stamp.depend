@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/opencv/opencv/3rdparty/openexr/CMakeLists.txt
+C:/opencv/opencv/3rdparty/openexr/IlmBaseConfig.h.cmakein
+C:/opencv/opencv/3rdparty/openexr/OpenEXRConfig.h.cmakein
+C:\Program Files\CMake\share\cmake-4.3\Templates\MSBuild\nasm.props.in

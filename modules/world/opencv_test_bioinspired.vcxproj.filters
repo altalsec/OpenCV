@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\bioinspired\test\test_main.cpp">
+      <Filter>opencv_bioinspired\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\bioinspired\test\test_retina_ocl.cpp">
+      <Filter>opencv_bioinspired\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\bioinspired\test\test_precomp.hpp">
+      <Filter>opencv_bioinspired\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_bioinspired">
+      <UniqueIdentifier>{B5E139A6-DA3C-3696-BC15-0AA05B9DEF99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_bioinspired\Include">
+      <UniqueIdentifier>{BCCB6EEB-2D9F-3F25-AEDB-469760CDF217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_bioinspired\Src">
+      <UniqueIdentifier>{A9A34AFE-7124-34C7-9A6A-1E7FD3A25B08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

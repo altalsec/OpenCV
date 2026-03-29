@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\ocl\test_bgfg_mog2.cpp">
+      <Filter>opencv_video\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\ocl\test_dis.cpp">
+      <Filter>opencv_video\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\ocl\test_optflow_farneback.cpp">
+      <Filter>opencv_video\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\ocl\test_optflowpyrlk.cpp">
+      <Filter>opencv_video\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\test_OF_accuracy.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\test_OF_reproducibility.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\test_accum.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\test_bgfg2.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\test_camshift.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\test_ecc.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\test_estimaterigid.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\test_kalman.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\test_main.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\test_optflowpyrlk.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv\modules\video\test\test_trackers.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv\modules\video\test\test_precomp.hpp">
+      <Filter>opencv_video\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opencv\opencv\modules\video\test\test_trackers.impl.hpp">
+      <Filter>opencv_video\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_video">
+      <UniqueIdentifier>{F43AF250-5C07-3A27-B6EC-485BC87C8AE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Include">
+      <UniqueIdentifier>{CA4625F8-0B01-3E22-9E14-229CAF7EE939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src">
+      <UniqueIdentifier>{873760AB-D609-36AA-B3F0-A1A11566E5CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src\ocl">
+      <UniqueIdentifier>{BA6F8424-8F57-33ED-B5D3-A75069CD642F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

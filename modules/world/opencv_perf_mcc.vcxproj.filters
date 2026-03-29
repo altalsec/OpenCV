@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\mcc\perf\perf_main.cpp">
+      <Filter>opencv_mcc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\mcc\perf\perf_mcc.cpp">
+      <Filter>opencv_mcc\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\mcc\perf\perf_precomp.hpp">
+      <Filter>opencv_mcc\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_mcc">
+      <UniqueIdentifier>{F9D59649-DE2F-396B-8DC0-7A669D551028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_mcc\Include">
+      <UniqueIdentifier>{4DEE9F8B-CFAC-32CE-B4DC-B5DE2E8ECF5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_mcc\Src">
+      <UniqueIdentifier>{7C6DF80F-86B0-3CB7-AE70-127A6BC85F06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\intensity_transform\test\test_intensity_transform.cpp">
+      <Filter>opencv_intensity_transform\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\intensity_transform\test\test_main.cpp">
+      <Filter>opencv_intensity_transform\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\intensity_transform\test\test_precomp.hpp">
+      <Filter>opencv_intensity_transform\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_intensity_transform">
+      <UniqueIdentifier>{646BDC46-7D4C-3722-9790-A5ABA49B0BCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_intensity_transform\Include">
+      <UniqueIdentifier>{3667E74D-6760-32B3-9CFB-C005C16362DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_intensity_transform\Src">
+      <UniqueIdentifier>{DDE11862-FCF7-34FE-8AF2-3C51ACCE1E01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

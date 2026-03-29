@@ -1,0 +1,2 @@
+C:/opencv/build/3rdparty/libjpeg-turbo/simd/CMakeFiles/CheckASM_NASM/CMakeFiles/ALL_BUILD.dir
+C:/opencv/build/3rdparty/libjpeg-turbo/simd/CMakeFiles/CheckASM_NASM/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\videostab\test\test_main.cpp">
+      <Filter>opencv_videostab\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\videostab\test\test_motion_estimation.cpp">
+      <Filter>opencv_videostab\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\videostab\test\test_stabilizer.cpp">
+      <Filter>opencv_videostab\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\videostab\test\test_precomp.hpp">
+      <Filter>opencv_videostab\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_videostab">
+      <UniqueIdentifier>{E33F5DE1-406C-30A5-AC55-0FAB7CB8F3F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_videostab\Include">
+      <UniqueIdentifier>{E5C51213-0B23-3954-9B55-59A898D83730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_videostab\Src">
+      <UniqueIdentifier>{8538DE78-CB85-3D4E-9176-1F33A2B03A63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

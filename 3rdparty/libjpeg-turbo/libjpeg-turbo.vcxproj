@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EA955E2A-3F68-3C0F-BF64-4A4D409442CF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libjpeg-turbo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="C:\opencv\build\3rdparty\libjpeg-turbo\libjpeg-turbo.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opencv\build\3rdparty\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libjpeg-turbo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libjpeg-turbod</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opencv\build\3rdparty\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libjpeg-turbo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libjpeg-turbo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opencv\opencv\3rdparty\dlpack\include;C:\opencv\build\3rdparty\libjpeg-turbo;C:\opencv\opencv\3rdparty\libjpeg-turbo\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/opencv/build" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4018</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;NO_GETENV;NO_PUTENV;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\opencv\build\3rdparty\lib\Debug\libjpeg-turbod.pdb</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;NO_GETENV;NO_PUTENV;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opencv\opencv\3rdparty\dlpack\include;C:\opencv\build\3rdparty\libjpeg-turbo;C:\opencv\opencv\3rdparty\libjpeg-turbo\src;C:\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\opencv\opencv\3rdparty\dlpack\include\;C:\opencv\build\3rdparty\libjpeg-turbo\;C:\opencv\opencv\3rdparty\libjpeg-turbo\src\;C:\opencv\build\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-f</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;NO_GETENV;NO_PUTENV;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opencv\opencv\3rdparty\dlpack\include;C:\opencv\build\3rdparty\libjpeg-turbo;C:\opencv\opencv\3rdparty\libjpeg-turbo\src;C:\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opencv\opencv\3rdparty\dlpack\include;C:\opencv\build\3rdparty\libjpeg-turbo;C:\opencv\opencv\3rdparty\libjpeg-turbo\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/opencv/build" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DisableSpecificWarnings>4996;4018</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;NO_GETENV;NO_PUTENV;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>C:\opencv\build\3rdparty\lib\Release\libjpeg-turbo.pdb</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;NO_GETENV;NO_PUTENV;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opencv\opencv\3rdparty\dlpack\include;C:\opencv\build\3rdparty\libjpeg-turbo;C:\opencv\opencv\3rdparty\libjpeg-turbo\src;C:\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\opencv\opencv\3rdparty\dlpack\include\;C:\opencv\build\3rdparty\libjpeg-turbo\;C:\opencv\opencv\3rdparty\libjpeg-turbo\src\;C:\opencv\build\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-f</AdditionalOptions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;NO_GETENV;NO_PUTENV;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opencv\opencv\3rdparty\dlpack\include;C:\opencv\build\3rdparty\libjpeg-turbo;C:\opencv\opencv\3rdparty\libjpeg-turbo\src;C:\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcapistd.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jccolor.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcdiffct.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jclossls.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcmainct.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcprepct.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcsample.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdapistd.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdcolor.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jddiffct.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdlossls.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdmainct.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdpostct.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdsample.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jutils.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jccoefct.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcdctmgr.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdcoefct.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jddctmgr.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdmerge.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jfdctfst.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jfdctint.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jidctflt.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jidctfst.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jidctint.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jidctred.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jquant1.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jquant2.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcapimin.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jchuff.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcicc.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcinit.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jclhuff.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcmarker.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcmaster.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcomapi.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcparam.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcphuff.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jctrans.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdapimin.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdatadst.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdatasrc.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdhuff.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdicc.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdinput.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdlhuff.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdmarker.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdmaster.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdphuff.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdtrans.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jerror.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jfdctflt.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jmemmgr.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jmemnobs.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jpeg_nbits.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jaricom.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jcarith.c" />
+    <ClCompile Include="C:\opencv\opencv\3rdparty\libjpeg-turbo\src\jdarith.c" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jsimdcpu.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jfdctflt-sse.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jccolor-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jcgray-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jchuff-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jcphuff-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jcsample-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jdcolor-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jdmerge-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jdsample-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jfdctfst-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jfdctint-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jidctflt-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jidctfst-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jidctint-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jidctred-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jquantf-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jquanti-sse2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jccolor-avx2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jcgray-avx2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jcsample-avx2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jdcolor-avx2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jdmerge-avx2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jdsample-avx2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jfdctint-avx2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jidctint-avx2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\$(Configuration)\jquanti-avx2.asm.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\simd.dir\$(Configuration)\jsimd.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jcapistd.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jccolor.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jcdiffct.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jclossls.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jcmainct.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jcprepct.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jcsample.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jdapistd.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jdcolor.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jddiffct.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jdlossls.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jdmainct.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jdpostct.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jdsample.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jutils.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jccoefct.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jcdctmgr.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jdcoefct.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jddctmgr.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jdmerge.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jfdctfst.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jfdctint.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jidctflt.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jidctfst.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jidctint.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jidctred.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jquant1.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.dir\$(Configuration)\jquant2.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jcapistd.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jccolor.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jcdiffct.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jclossls.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jcmainct.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jcprepct.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jcsample.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jdapistd.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jdcolor.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jddiffct.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jdlossls.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jdmainct.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jdpostct.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jdsample.obj" />
+    <Object Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\$(Configuration)\jutils.obj" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.vcxproj">
+      <Project>{FB001308-12BD-3557-A912-260C3111A473}</Project>
+      <Name>jpeg12-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.vcxproj">
+      <Project>{39FB018E-42B7-3B4C-894A-AF92F1547795}</Project>
+      <Name>jpeg16-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\simd.vcxproj">
+      <Project>{783D3DDB-6CE0-3657-ACB0-C0DB3A5853AF}</Project>
+      <Name>simd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-4.3\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

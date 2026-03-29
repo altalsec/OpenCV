@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_adaptive_manifold.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_bilateral_texture_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_disparity_wls_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_domain_transform.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_edgepreserving_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_fast_hough_transform.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_fgs_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_find_ellipses.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_guided_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_joint_bilateral_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_l0_smooth.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_main.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_radon_transform.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_ridge_detection_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_rolling_guidance_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_run_length_morphology.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_thining.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_weighted_median_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\ximgproc\perf\perf_precomp.hpp">
+      <Filter>opencv_ximgproc\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_ximgproc">
+      <UniqueIdentifier>{776A32C2-BD53-3F26-B252-D946CD752E84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ximgproc\Include">
+      <UniqueIdentifier>{C29D2DD7-399C-3DC5-9EC5-A5E157E86461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ximgproc\Src">
+      <UniqueIdentifier>{141EF109-E34E-3338-B4BE-D413837446F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

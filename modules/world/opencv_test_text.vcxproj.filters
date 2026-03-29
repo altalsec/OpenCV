@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\text\test\test_detection.cpp">
+      <Filter>opencv_text\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\text\test\test_detection_swt.cpp">
+      <Filter>opencv_text\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\text\test\test_main.cpp">
+      <Filter>opencv_text\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\text\test\test_precomp.hpp">
+      <Filter>opencv_text\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_text">
+      <UniqueIdentifier>{DB896EAE-74BC-33B4-9BCF-2B43F9B0E099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_text\Include">
+      <UniqueIdentifier>{AFF5959B-166A-3354-93B0-115D72AA0348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_text\Src">
+      <UniqueIdentifier>{3A1F03BB-4B2A-391D-9A29-8EA6CD9AD62D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

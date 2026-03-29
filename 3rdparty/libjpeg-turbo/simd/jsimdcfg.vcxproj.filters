@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\opencv\build\CMakeFiles\decb87766a863b555436979e1806a1ab\jsimdcfg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\opencv\build\3rdparty\libjpeg-turbo\simd\CMakeFiles\jsimdcfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{65EC1F5C-6D6B-3800-8F8B-EB2FC3BE3931}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

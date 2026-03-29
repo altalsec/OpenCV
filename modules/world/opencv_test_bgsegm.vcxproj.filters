@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\bgsegm\test\test_backgroundsubtractor_gbh.cpp">
+      <Filter>opencv_bgsegm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\bgsegm\test\test_backgroundsubtractor_lsbp.cpp">
+      <Filter>opencv_bgsegm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\bgsegm\test\test_main.cpp">
+      <Filter>opencv_bgsegm\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\bgsegm\test\test_precomp.hpp">
+      <Filter>opencv_bgsegm\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_bgsegm">
+      <UniqueIdentifier>{DB09240D-EBE4-37FD-8614-529FB9BF1EFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_bgsegm\Include">
+      <UniqueIdentifier>{C792E95E-0E3B-3B9A-BB55-DF7FF4FD90B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_bgsegm\Src">
+      <UniqueIdentifier>{ECEF09CA-3A3B-312B-BA29-B2E3E53CB8C3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

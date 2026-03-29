@@ -1,0 +1,13 @@
+PORTED FUNCs LIST (5 of 5):
+
+static Ptr_TrackerCSRT cv::TrackerCSRT::create(TrackerCSRT_Params parameters = TrackerCSRT::Params())
+ void cv::TrackerCSRT::setInitialMask(Mat mask)
+  cv::TrackerCSRT::Params::Params()
+static Ptr_TrackerKCF cv::TrackerKCF::create(TrackerKCF_Params parameters = TrackerKCF::Params())
+  cv::TrackerKCF::Params::Params()
+
+SKIPPED FUNCs LIST (0 of 5):
+
+
+0 def args - 3 funcs
+1 def args - 2 funcs

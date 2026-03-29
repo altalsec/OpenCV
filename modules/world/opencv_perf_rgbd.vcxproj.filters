@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\rgbd\perf\perf_main.cpp">
+      <Filter>opencv_rgbd\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\rgbd\perf\perf_tsdf.cpp">
+      <Filter>opencv_rgbd\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\rgbd\perf\perf_precomp.hpp">
+      <Filter>opencv_rgbd\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_rgbd">
+      <UniqueIdentifier>{54EFEC0A-D988-3505-8AB5-23360B275CAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_rgbd\Include">
+      <UniqueIdentifier>{9A9D01AE-4636-3E05-A7F9-B33E8EB87941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_rgbd\Src">
+      <UniqueIdentifier>{0512C57D-D2A5-3578-A264-02BB80F652D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

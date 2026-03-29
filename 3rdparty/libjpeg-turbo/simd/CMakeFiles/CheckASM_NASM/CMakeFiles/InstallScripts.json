@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/opencv/build/3rdparty/libjpeg-turbo/simd/CMakeFiles/CheckASM_NASM/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\dnn_superres\test\test_dnn_superres.cpp">
+      <Filter>opencv_dnn_superres\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\dnn_superres\test\test_main.cpp">
+      <Filter>opencv_dnn_superres\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\dnn_superres\test\test_precomp.hpp">
+      <Filter>opencv_dnn_superres\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_dnn_superres">
+      <UniqueIdentifier>{31DA17CC-161A-3C01-8251-B1E036882DAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn_superres\Include">
+      <UniqueIdentifier>{AF35B1A4-C4B1-39DF-90A2-4BB41FA69275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn_superres\Src">
+      <UniqueIdentifier>{C888A303-EA18-3516-AFD4-85D8BBBEADDE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

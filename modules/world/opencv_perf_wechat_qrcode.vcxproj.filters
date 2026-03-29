@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\wechat_qrcode\perf\perf_main.cpp">
+      <Filter>opencv_wechat_qrcode\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\wechat_qrcode\perf\perf_wechat_qrcode_pipeline.cpp">
+      <Filter>opencv_wechat_qrcode\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\wechat_qrcode\perf\perf_precomp.hpp">
+      <Filter>opencv_wechat_qrcode\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_wechat_qrcode">
+      <UniqueIdentifier>{D96F02EB-D4D5-34A3-B79E-82A7A1D50BCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_wechat_qrcode\Include">
+      <UniqueIdentifier>{F93B45E4-C200-3129-BC62-55A77E03D635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_wechat_qrcode\Src">
+      <UniqueIdentifier>{25230E47-26DE-3D23-ACF4-D1A21879039F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

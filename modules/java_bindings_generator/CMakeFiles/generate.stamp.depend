@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/opencv/opencv/cmake/OpenCVBindingsPreprocessorDefinitions.cmake
+C:/opencv/opencv/modules/core/misc/java/src/java/core+Core.jcode.in
+C:/opencv/opencv/modules/java/common.cmake
+C:/opencv/opencv/modules/java/generator/CMakeLists.txt
+C:/opencv/opencv/modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java.in
+C:/opencv/opencv/modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java.in
+C:\Program Files\CMake\share\cmake-4.3\Templates\MSBuild\nasm.props.in

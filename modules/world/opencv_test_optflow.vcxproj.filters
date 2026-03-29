@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\optflow\test\ocl\test_motempl.cpp">
+      <Filter>opencv_optflow\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\optflow\test\ocl\test_optflow_tvl1flow.cpp">
+      <Filter>opencv_optflow\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\optflow\test\test_OF_accuracy.cpp">
+      <Filter>opencv_optflow\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\optflow\test\test_main.cpp">
+      <Filter>opencv_optflow\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\optflow\test\test_motiontemplates.cpp">
+      <Filter>opencv_optflow\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opencv\opencv_contrib\modules\optflow\test\test_tvl1optflow.cpp">
+      <Filter>opencv_optflow\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opencv\opencv_contrib\modules\optflow\test\test_precomp.hpp">
+      <Filter>opencv_optflow\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_optflow">
+      <UniqueIdentifier>{ECC3984C-B87D-3FF9-B610-A9CC53069F9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_optflow\Include">
+      <UniqueIdentifier>{A5A55987-C6AF-39C3-9B9C-4D986A3ECE73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_optflow\Src">
+      <UniqueIdentifier>{8ADA20E4-DC9A-38A4-BD76-60AB8938300D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_optflow\Src\ocl">
+      <UniqueIdentifier>{F282D497-244A-3904-B59D-E9C3E410EACD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
